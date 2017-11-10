@@ -1,0 +1,17 @@
+@import "variables";
+
+.card-features {
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 3px 5px 20px 1px rgba(0, 0, 0, 0.3);
+
+  .card-title {
+    font-size: 30px;
+    font-weight: 800;
+  }
+}
+
+.btn-feature {
+  background-color: #fff;
+}

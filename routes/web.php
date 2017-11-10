@@ -12,5 +12,27 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/home');
 });
+
+Route::get('/home', function() {
+    return view('main/main');
+});
+
+Route::get('/about', function() {
+    return view('main/about');
+});
+
+Route::get('/features', function() {
+    return view('main/features');
+});
+
+
+
+Route::get('/services', 'ServicesController@index');
+Route::get('/services/manage', 'ServicesController@manage');
+Route::get('/services/food', 'ServicesController@food');
+
+
+
+Route::get('services/manage/input', 'ServicesController@manageInput');

@@ -1,0 +1,17 @@
+.card-features {
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 3px 5px 20px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 5px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.card-features .card-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.btn-feature {
+  background-color: #fff;
+}
+
