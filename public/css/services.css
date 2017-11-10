@@ -1,0 +1,39 @@
+html,
+body {
+  background-color: #EFF4F9;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+.img-thumbnail {
+  border: 0;
+  padding: 0;
+}
+
+.img-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.card {
+  border: 0;
+  -webkit-box-shadow: 3px 3px 20px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 3px 3px 20px 3px rgba(0, 0, 0, 0.05);
+}
+

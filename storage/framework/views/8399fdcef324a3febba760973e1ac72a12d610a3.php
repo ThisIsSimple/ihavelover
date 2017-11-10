@@ -8,7 +8,7 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection("content"); ?>
-    <?php echo $__env->make( "main.navbar", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <?php echo $__env->make("navbar", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <div class="container py-5">
         <p class="h1">New Lifestyle.</p>
         <p class="lead text-muted">WE suggest you a new lifestyle with latest IT technologies</p>

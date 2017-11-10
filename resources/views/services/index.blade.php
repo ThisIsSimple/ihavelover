@@ -24,7 +24,7 @@
                         <p class="card-text text-muted">Food</p>
                         <h4 class="card-title">오늘 뭐 먹지?</h4>
                         <p class="card-text">매번 시켜 먹으시겠습니까?</p>
-                        <a href="#" class="btn btn-feature">서비스 바로 가기</a>
+                        <a href="/services/food" class="btn btn-feature">서비스 바로 가기</a>
                     </div>
                 </div>
                 <div class="card card-features text-white">
@@ -33,7 +33,7 @@
                         <p class="card-text text-muted">Food</p>
                         <h4 class="card-title">오늘 뭐 먹지?</h4>
                         <p class="card-text">매번 시켜 먹으시겠습니까?</p>
-                        <a href="#" class="btn btn-feature">서비스 바로 가기</a>
+                        <a href="/services/food" class="btn btn-feature">서비스 바로 가기</a>
                     </div>
                 </div>
             </div>

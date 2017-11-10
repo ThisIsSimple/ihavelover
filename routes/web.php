@@ -32,6 +32,7 @@ Route::get('/features', function() {
 Route::get('/services', 'ServicesController@index');
 Route::get('/services/manage', 'ServicesController@manage');
 Route::get('/services/food', 'ServicesController@food');
+Route::post('/services/food', 'ServicesController@food');
 
 
 
