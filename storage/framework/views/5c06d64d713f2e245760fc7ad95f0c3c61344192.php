@@ -9,21 +9,14 @@
 
 <?php $__env->startSection("content"); ?>
     <?php echo $__env->make("navbar", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-    <div class="container-fluid">
-        <div class="row no-gutters">
+    <div class="container-fluid py-4">
+        <div class="row">
             <div class="col-12 col-md-3">
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action active">
-                        Cras justo odio
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                    <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                    <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                <div class="card">
+                    <div class="card-body">
+                        asdf
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-9">
-
             </div>
         </div>
     </div>
