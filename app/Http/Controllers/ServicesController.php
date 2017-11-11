@@ -69,7 +69,7 @@ class ServicesController extends Controller
     public function manageOutput()
     {
         $count = Input::get('n');
-        $data = App\Manage::get();
+        $data = App\Manage::get()->reverse();
 
         $json = [];
 
