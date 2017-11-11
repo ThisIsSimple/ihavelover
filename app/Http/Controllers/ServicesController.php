@@ -82,6 +82,7 @@ class ServicesController extends Controller
             $gas = $item->gas;
 
             $content = [
+                'id' => $item->id,
                 'created_at' => $created_at,
                 'temp' => $temperature,
                 'humi' => $humidity,
