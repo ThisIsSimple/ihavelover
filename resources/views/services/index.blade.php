@@ -33,7 +33,7 @@
                         <p class="card-text text-muted">Security</p>
                         <h4 class="card-title">나 없으면 집은 누가..?</h4>
                         <p class="card-text">매번 혼자 두고 나가야 하는 집... 걱정되시죠?</p>
-                        <a href="/services/food" class="btn btn-feature">서비스 바로 가기</a>
+                        {{--<a href="#" class="btn btn-feature">서비스 바로 가기</a>--}}
                     </div>
                 </div>
             </div>
