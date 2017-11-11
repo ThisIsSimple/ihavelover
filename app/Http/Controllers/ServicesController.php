@@ -65,4 +65,32 @@ class ServicesController extends Controller
 
         return json_encode($json);
     }
+
+    public function manageOutput()
+    {
+        $count = Input::get('n');
+        $data = App\Manage::get();
+
+        $json = [];
+
+        $i=0;
+        foreach($data as $item) {
+            $i++;
+            $temperature = $item->temperature;
+            $humidity = $item->humidity;
+            $gas = $item->gas;
+
+            $content = [
+                'temp' => $temperature,
+                'humi' => $humidity,
+                'gas' => $gas
+            ];
+
+            array_push($json, $content);
+
+            if($i == $count) break;
+        }
+
+        return json_encode($json);
+    }
 }

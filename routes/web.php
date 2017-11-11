@@ -37,3 +37,4 @@ Route::post('/services/food', 'ServicesController@food');
 
 
 Route::get('services/manage/input', 'ServicesController@manageInput');
+Route::get('services/manage/output', 'ServicesController@manageOutput');
