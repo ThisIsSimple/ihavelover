@@ -53,7 +53,7 @@
                         <p class="card-text text-muted">Light</p>
                         <h4 class="card-title">나를 채워주는 따뜻한 불빛</h4>
                         <p class="card-text"></p>
-                        <a href="#" class="btn btn-feature">서비스 바로 가기</a>
+                        {{--<a href="#" class="btn btn-feature">서비스 바로 가기</a>--}}
                     </div>
                 </div>
             </div>
