@@ -15,7 +15,11 @@ class ServicesController extends Controller
 
     public function manage()
     {
-        return view('services/manage');
+        $manage = App\Manage::get();
+
+        return view('services/manage', [
+            'manage' => $manage
+        ]);
     }
 
     public function food()
