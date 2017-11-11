@@ -76,11 +76,13 @@ class ServicesController extends Controller
         $i=0;
         foreach($data as $item) {
             $i++;
+            $created_at = $item->created_at;
             $temperature = $item->temperature;
             $humidity = $item->humidity;
             $gas = $item->gas;
 
             $content = [
+                'created_at' => $created_at,
                 'temp' => $temperature,
                 'humi' => $humidity,
                 'gas' => $gas
