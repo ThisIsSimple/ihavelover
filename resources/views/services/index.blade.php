@@ -30,9 +30,9 @@
                 <div class="card card-features text-white">
                     <img class="card-img" src="{{ asset('img/services/index2.jpg') }}" alt="Card image">
                     <div class="card-img-overlay">
-                        <p class="card-text text-muted">Food</p>
-                        <h4 class="card-title">오늘 뭐 먹지?</h4>
-                        <p class="card-text">매번 시켜 먹으시겠습니까?</p>
+                        <p class="card-text text-muted">Security</p>
+                        <h4 class="card-title">나 없으면 집은 누가..?</h4>
+                        <p class="card-text">매번 혼자 두고 나가야 하는 집... 걱정되시죠?</p>
                         <a href="/services/food" class="btn btn-feature">서비스 바로 가기</a>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="card card-features text-white mb-4">
                     <img class="card-img" src="{{ asset('img/services/index3.jpg') }}" alt="Card image">
                     <div class="card-img-overlay">
-                        <p class="card-text text-muted">Food</p>
+                        <p class="card-text text-muted">Manage</p>
                         <h4 class="card-title">집안의 모든 것</h4>
                         <p class="card-text">관리해봐요 ㅇㅇ</p>
                         <a href="/services/manage" class="btn btn-feature">서비스 바로 가기</a>
@@ -50,9 +50,9 @@
                 <div class="card card-features text-white">
                     <img class="card-img" src="{{ asset('img/services/index4.jpg') }}" alt="Card image">
                     <div class="card-img-overlay">
-                        <p class="card-text text-muted">Food</p>
-                        <h4 class="card-title">오늘 뭐 먹지?</h4>
-                        <p class="card-text">매번 시켜 먹으시겠습니까?</p>
+                        <p class="card-text text-muted">Light</p>
+                        <h4 class="card-title">나를 채워주는 따뜻한 불빛</h4>
+                        <p class="card-text"></p>
                         <a href="#" class="btn btn-feature">서비스 바로 가기</a>
                     </div>
                 </div>

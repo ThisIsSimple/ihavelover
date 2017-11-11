@@ -4,6 +4,19 @@
     <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <style>
+        .navbar {
+            background-color: transparent;
+            position: absolute;
+            top: 0;
+            width: 100vw;
+            border: 0;
+        }
+
+        .navbar * {
+            color: #fff !important;
+        }
+    </style>
 @endsection
 
 @section ("scripts")
@@ -11,84 +24,10 @@
 
 @section ("content")
     @include("navbar")
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-3">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-6 row">
-                <div class="col-12">
-                    <div class="card">
-                        <img class="card-img" src="..." alt="Card image">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="card">
-                        <img class="card-img" src="..." alt="Card image">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="card">
-                        <img class="card-img" src="..." alt="Card image">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 row">
-                <div class="col-6">
-                    <div class="card">
-                        <img class="card-img" src="..." alt="Card image">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="card">
-                        <img class="card-img" src="..." alt="Card image">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="card">
-                        <img class="card-img" src="..." alt="Card image">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="jumbotron jumbotron-fluid" style="margin: 0; padding: 20em 0; background: url('{{ asset('img/main/home1.jpg')}}') center center; background-size: cover; background-attachment: fixed;">
+        <div class="container text-white">
+            <h1 class="display-3">당신이 느끼는 당신입니다.</h1>
+            <p class="lead">혼자 사는 것은 굉장히 외로운 일이죠. 암 그렇고 말고요. "애인있어요"는 당신에게 연인과 같은 존재가 될것입니다. 일단은 사봐요!</p>
         </div>
     </div>
 @endsection

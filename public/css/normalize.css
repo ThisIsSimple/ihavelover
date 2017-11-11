@@ -6,9 +6,19 @@
           box-shadow: 3px 5px 20px 1px rgba(0, 0, 0, 0.3);
 }
 
+.card-features img {
+  -webkit-transition: .15s;
+  transition: .15s;
+}
+
 .card-features .card-title {
   font-size: 30px;
   font-weight: 800;
+}
+
+.card-features:hover img {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
 }
 
 .btn-feature {
